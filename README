@@ -1,3 +1,15 @@
 This git repository contains Kickstarts and other scripts needed
 to produce the CentOS LiveCD/DVD 
 
+It contains only kickstarts used to produce the following CentOS 7 live media variants (more to come later):
+* CentOS Live CD (minimal Gnome3 desktop with only Firefox)
+* CentOS Live DVD - Gnome Spin (normal Gnome3 desktop with office suites/internet applications)
+* CentOS Live DVD - KDE Spin (normal KDE4 desktop with office suite/internet applications
+
+You can find the corresponding kickstarts in the kickstarts folder.
+If you want to produce a custom live media spin (or want to contribute to a CentOS live media variant), you'll need :
+* A CentOS 7 (or el7) machine
+* root (or sudo) access
+* livecd-tools package (and deps) : for the time being, you can find those here : http://people.centos.org/arrfab/CentOS7/LiveMedia/RPMS/
+
+Don't forget to change the repository path in the kickstart if you have a nearest or local mirror !
